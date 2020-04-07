@@ -1,0 +1,83 @@
+body{
+	background-image: url('background.jpg');
+}
+
+h1{
+	background-image: url(sunset.jpg);
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-right: 20px;
+	padding-left: 72px;
+	margin-bottom: 0px;
+	height: 200%;
+	font-family: Georgia,serif;
+	background-position: center right;
+	background-repeat: no-repeat;
+	
+}
+
+nav{
+	font-weight: bold;
+	float: left;
+	width:160px;
+}
+
+nav ul li{
+	padding-left: 1em;
+	list-style: none;
+
+}
+
+a{
+	padding: 0.2em;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+
+.wrapper{
+	width:90%;
+	min-width: 700px;
+	background-color:	#90c7e3;
+}
+
+.article{
+	display: block;
+	background-color: #FFFFFF;
+	margin-left: 170px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+}
+
+footer{
+	background-color: #FFFFFF;
+	font-size: 0.7em;
+	text-align: center;
+	font-style: italic;
+	margin-left: 170px;
+}
+
+ a .footer{
+	color: #FFFFFF;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+video{
+	max-width: 60%;
+	height: auto;
+	margin-left: 2em;
+}
+
+.banner{
+	max-width: 100%;
+}
+
+h2{
+	color: red;
+}
+
