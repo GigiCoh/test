@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	background-image: url('background.jpg');
+}
+
+h1{
+	background-image: url(sunset.jpg);
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-right: 20px;
+	padding-left: 72px;
+	margin-bottom: 0px;
+	height: 200%;
+	font-family: Georgia,serif;
+	background-position: center right;
+	background-repeat: no-repeat;
+	
+}
+
+nav{
+	font-weight: bold;
+}
+
+nav ul li{
+	list-style: none;
+
+}
+
+a{	
+	display:block;
+	padding: 0.2em;
+	font-size: 1.1em;
+	border-bottom: 1px solid #330000;
+	text-decoration: none;
+}
+
+.wrapper{
+	width:100%;
+	min-width: 700px;
+	background-color:	#90c7e3;
+}
+
+.article{
+	padding-left: 10px;
+	display: block;
+	background-color: #FFFFFF;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+footer{
+	background-color: #FFFFFF;
+	font-size: 0.7em;
+	text-align: center;
+	font-style: italic;
+	width: 100%;
+}
+
+ a .footer{
+	color: #FFFFFF;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+video{
+	max-width: 60%;
+	height: auto;
+	margin-left: 2em;
+}
+
+h2{
+	color: red;
+}
+
